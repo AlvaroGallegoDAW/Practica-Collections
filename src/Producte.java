@@ -8,4 +8,9 @@ public abstract class Producte {
         this.nom = nom;
         this.codiBarres = codiBarres;
     }
+
+    @Override
+    public String toString() {
+        return nom;
+    }
 }
